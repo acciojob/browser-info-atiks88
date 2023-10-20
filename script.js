@@ -5,5 +5,5 @@ document.addEventListener("DOMContentLoaded", function() {
         const browserName = navigator.appName;
         const version = navigator.appVersion;
 
-        browserInfoDiv.innerText = "You are using " + browserName + " version " + version;
+        browserInfoDiv.innerText = "You are using "+useragent + browserName + " version " + version;
     });
